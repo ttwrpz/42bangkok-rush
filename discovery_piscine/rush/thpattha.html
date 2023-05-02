@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>โรงเรียนเทพศิรินทร์ | Debsirin School</title>
+</head>
+<body class="h-full overflow-x-hidden font-['LINE_Seed']">
+<div class="fixed top-1/2 right-10 z-10">
+    <a href="#introduction" aria-label="แนะนำโรงเรียน" class="dot active"></a>
+    <a href="#about" aria-label="เกี่ยวกับโรงเรียน" class="dot"></a>
+    <a href="#motto" aria-label="คำขวัญประจำโรงเรียน" class="dot"></a>
+    <a href="#gallery" aria-label="ภาพบรรยากาศภายในโรงเรียน" class="dot"></a>
+    <a href="#news" aria-label="ข่าวสารจากโรงเรียน" class="dot"></a>
+    <a href="#contact" aria-label="ติดต่อโรงเรียน" class="dot"></a>
+</div>
+<div class="min-h-screen flex flex-col bg-[#ece8e1]">
+    <section id="introduction" class="min-h-screen flex items-center bg-cover bg-no-repeat bg-fixed"
+             style="background-image: url('https://media.discordapp.net/attachments/519519158342254594/1102242448341733446/332179719_517222127154233_5521973962165911092_n.png?width=1074&height=671')">
+        <div class="w-full min-h-screen flex items-center gap-4 backdrop-blur bg-gray-500/20 px-[7%] py-[10%]">
+            <div class="px-4 border-r-2 h-40 animate__animated animate__bounceInDown animate__animated--ignore"></div>
+            <div class="flex flex-col gap-4 text-white">
+                <span class="text-2xl font-light animate__animated animate__fadeInLeft animate__delay-2s">
+                    โรงเรียนเทพศิรินทร์
+                </span>
+                <h1 class="md:text-4xl lg:text-6xl font-semibold uppercase animate__animated animate__fadeInLeft animate__delay-1s">
+                    Debsirin School
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div>
+        <nav
+                class="z-[100] mt-6 shadow-none flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all duration-250 ease-soft-in rounded-2xl lg:flex-nowrap lg:justify-start sticky top-[1%] backdrop-saturate-[200%] backdrop-blur-[30px] bg-[hsla(0,0%,100%,0.4)]">
+            <div class="flex flex-row items-center justify-between w-full px-4 py-1 mx-auto gap-4">
+                <span class="ml-2 mb-0 text-2xs font-bold">โรงเรียนเทพศิรินทร์</span>
+                <div class="flex items-center md:ml-auto md:pr-4 relative group">
+                    <button class="px-4 py-2 bg-white/50 rounded-lg flex items-center justify-center hover:ring-2 ring-amber-400 transition-all duration-300 focus:outline-none lg:hidden">เมนู</button>
+                    <ul class="lg:flex flex-col lg:flex-row gap-4 md:justify-end pl-0 mb-0 list-none transition md-max:w-full hidden group-focus-within:flex group-focus-within:absolute lg:group-focus-within:static top-14 right-0 bg-white lg:bg-transparent p-4 w-max rounded">
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#introduction">แนะนำโรงเรียน</a>
+                        </li>
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#about">เกี่ยวกับ</a>
+                        </li>
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#motto">คำขวัญ</a>
+                        </li>
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#gallery">ภาพบรรยากาศ</a>
+                        </li>
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#news">ข่าวสารจากโรงเรียน</a>
+                        </li>
+                        <li class="flex items-center pl-4 hover:text-gray-400">
+                            <a href="#contact">ติดต่อโรงเรียน</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="about" class="min-h-screen flex">
+            <div class="w-full min-h-screen flex flex-row justify-between items-center gap-4 px-[7%] py-[10%]">
+                <div class="flex flex-col-reverse xl:flex-row justify-evenly items-center gap-10 w-full">
+                    <h1 class="text-4xl xl:text-6xl -rotate-90 xl:rotate-180 text-center xl:relative xl:left-auto opacity-10 xl:opacity-100 cursor-default xl:cursor-vertical-text animate__fadeIn animate__delay-1s"
+                        style="writing-mode: vertical-rl; --animate-delay: 1.5s;">
+                        พวกเราคือ &ldquo;ลูกแม่รำเพย&bdquo;
+                    </h1>
+
+                    <div class="flex flex-col flex-wrap gap-5">
+                        <p class="max-w-3xl text-lg my-5 leading-relaxed break-words animate__animated animate__fadeInLeft" style="--animate-duration: 1.4s;">
+                            <span class="font-semibold">โรงเรียนเทพศิรินทร์</span> เป็นโรงเรียนชายล้วน
+                            อยู่ภายใต้สังกัดสำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน กระทรวงศึกษาธิการ
+                            และโรงเรียนเทพศิรินทร์เป็นโรงเรียนรัฐบาลแห่งเดียวในประเทศไทย
+                            ที่มีพระมหากษัตริย์ทรงเข้ารับการศึกษา คือ พระบาทสมเด็จพระปรเมนทรมหาอานันทมหิดล
+                            พระอัฐมรามาธิบดินทร (รัชกาลที่ 8)
+                            ปัจจุบันมีอายุ 138 ปี และมีโรงเรียนในเครือข่ายอีก 10 โรงเรียนด้วยกันทั่วประเทศไทย
+                        </p>
+
+                        <p class="max-w-3xl text-lg my-5 leading-relaxed break-words animate__animated animate__fadeInLeft" style="--animate-duration: 1.6s;">
+                            <span class="font-semibold">ในปี พ.ศ. 2419</span>
+                            พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว
+                            มีพระชนมพรรษาครบเบญจเพส
+                            จึงมีพระราชดำริที่จะสร้างพระอารามเพื่อทรงอุทิศพระราชกุศลถวายสนองพระเดชพระคุณแด่องค์พระราชชนนี
+                            และได้สถาปนาวัดเทพศิรินทราวาสขึ้น
+                            โดยในช่วงเดียวกัน พระเจ้าน้องยาเธอ พระองค์เจ้าดิศวรกุมาร (กรมพระยาดำรงราชานุภาพ)
+                            ได้จัดตั้งโรงเรียนปริยัติธรรมบาลี ขึ้นภายในวัดเทพศิรินทราวาส
+                            และในช่วงแรกของการจัดตั้งโรงเรียนนั้น
+                            โรงเรียนเทพศิรินทร์ได้อาศัยศาลาการเปรียญภายในวัดเทพศิรินทราวาสเป็นที่ทำการเรียนการสอน
+                            ในวันที่ 15 มีนาคม พ.ศ. 2428
+                        </p>
+
+                        <p class="max-w-3xl text-lg my-5 leading-relaxed break-words animate__animated animate__fadeInLeft" style="--animate-duration: 1.8s;">
+                            <span class="font-semibold">ในปี พ.ศ. 2445</span>
+                            พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวได้พระราชทานนามตึกเรียนแห่งแรกของโรงเรียนว่า
+                            &ldquo;ตึกแม้นนฤมิตร์&rdquo;
+                            ต่อมาได้พระราชทานเงินมรดกอันเป็นสมบัติของสมเด็จพระเจ้าลูกเธอ
+                            เจ้าฟ้าเยาวมาลย์นฤมล กรมขุนสวรรคโลกลักษณวดี
+                            ซึ่งสิ้นพระชนม์ไปแล้วให้กระทรวงธรรมการทำการจัดสร้างตึกเรียนขึ้น
+                            ทางด้านหน้าวัดทางฝั่งทิศใต้ตรงข้ามกับตึกแม้นนฤมิตรที่มีอยู่
+                            แล้วทางด้านทิศเหนือโดยทรงมุ่งหมายเป็นแบบอย่างให้ชนทั้งหลาย
+                            ถือเอาการสร้างสถานศึกษาเล่าเรียนเช่นนี้ว่าเป็นสิ่งดี
+                            กอปรด้วยประโยชน์และต้องด้วยพระราชนิยม ก็จะมีพระประยูรญาติของสมเด็จพระเจ้าลูกเธอ
+                            เจ้าฟ้าเยาวมาลย์นฤมล กรมขุนสวรรคโลกลักษณวดี ยินดีที่จะทรงบริจาคเพิ่มเติมให้จนสำเร็จ
+                            เพื่ออุทิศพระกุศลแด่องค์สมเด็จพระเจ้าลูกเธอ เจ้าฟ้าเยาวมาลย์นฤมล กรมขุนสวรรคโลกลักษณวดี
+                        </p>
+
+                        <p class="max-w-3xl text-lg my-5 leading-relaxed break-words animate__animated animate__fadeInLeft" style="--animate-duration: 2s;">
+                            การสร้างตึกเพื่อการดังกล่าวหลังนี้ได้มีชื่อต่อมาในภายหลังว่า เยาวมาลย์อุทิศ
+                            และเมื่อมีการสร้างอาคารเรียน 2 หลังแล้ว
+                            ได้พระราชทานนามโรงเรียนว่า <span class="font-semibold">&ldquo;เทพศิรินทร์&rdquo; </span>
+                            อีกทั้งยังมีพระราชดำริให้ย้าย <em>โรงเรียนสวนกุหลาบวิทยาลัย</em> มายังตึกแม้นนฤมิตร์อีกด้วย
+                            เพื่อรอการก่อสร้างตึกอาคารเรียนที่โรงเรียนนั้น
+                        </p>
+                    </div>
+
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Debsirin.png"
+                         alt="Debsirin Logo" style="--animate-delay: 1.75s;"
+                         class="h-fit sm:max-w-md animate__animated animate__fadeIn animate__delay-1s"/>
+                </div>
+            </div>
+        </section>
+        <section id="motto" class="flex bg-[#3C6255] bg-gradient-to-bl from-[#3C6255] to-[#61876E] text-white">
+            <div class="w-full flex flex-col px-[7%] py-[10%] xl:py-[5%] gap-4">
+                <h2 class="text-lg md:text-2xl font-light md:ml-6 animate__animated animate__fadeInUp animate__delay-1s" style="--animate: .25s">ไม่ควรเป็นคนรกโลก</h2>
+                <h1 class="text-3xl md:text-6xl animate__animated animate__fadeInUp animate__delay-1s" style="--animate: .5s">&ldquo;น สิยา โลกวฑฺฒโน&bdquo;</h1>
+                <p class="text-md md:text-xl md:font-light md:ml-6 leading-relaxed animate__animated animate__fadeInUp animate__delay-1s" style="--animate-delay: 1.5s">
+                    <span class="font-semibold md:font-normal">โดยพุทธศาสนสุภาษิตบทนี้พระเดชพระคุณสมเด็จพระพุทธโฆษาจารย์ (เจริญ ณาณวรเถร) </span>
+                    ได้ประสาทให้แก่โรงเรียนเทพศิรินทร์ เมื่อเดือนธันวาคม พ.ศ. 2466
+                </p>
+            </div>
+        </section>
+        <section id="gallery" class="min-h-screen flex bg-cover bg-no-repeat bg-fixed">
+            <div class="w-full min-h-screen flex flex-col gap-1 px-[7%] py-[10%]">
+                <h1 class="text-3xl xl:text-6xl mb-10 flex items-center after:contents-[''] after:flex-1 after:ml-10 after:h-[1px] after:bg-black animate__animated animate__slideInRight">
+                    ภาพบรรยากาศภายในโรงเรียนเทพศิรินทร์
+                </h1>
+
+                <div class="grid gap-4 self-center animate__animated animate__fadeIn" style="--animate-duration: 2s">
+                    <div>
+                        <img
+                                class="h-auto max-w-full rounded-lg transition hover:scale-105 hover:xl:scale-[1.01]"
+                                src="https://media.discordapp.net/attachments/519519158342254594/1102233781055783043/332117251_152024990696784_6398200289718699844_n.png"
+                                alt=""/>
+                    </div>
+                    <div class="grid md:grid-cols-3 xl:grid-cols-5 gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg transition hover:scale-105"
+                                 src="https://media.discordapp.net/attachments/519519158342254594/1102232962549960815/119983599_177012347243561_3628783172833293605_n.png?width=690&height=460"
+                                 alt=""/>
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg transition hover:scale-105"
+                                 src="https://media.discordapp.net/attachments/519519158342254594/1102231289005883392/326698863_1208708753094955_7422200437250636560_n.png?width=690&height=460"
+                                 alt=""/>
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg transition hover:scale-105"
+                                 src="https://media.discordapp.net/attachments/519519158342254594/1102227613231095818/1419.png"
+                                 alt=""/>
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg transition hover:scale-105"
+                                 src="https://media.discordapp.net/attachments/519519158342254594/1102227658735112282/E0B980E0B897E0B89EE0B8A8E0B8B4E0B8A3E0B8B4E0B899E0B897E0B8A3E0B98C.png?width=690&height=460"
+                                 alt=""/>
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg transition hover:scale-105"
+                                 src="https://media.discordapp.net/attachments/519519158342254594/1102228718811877396/82914831_2315859835371858_6698695697971019776_n.png?width=690&height=460"
+                                 alt=""/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="news" class="min-h-screen flex bg-[#3C6255] bg-gradient-to-bl from-[#3C6255] to-[#61876E]">
+            <div class="w-full min-h-screen flex flex-col gap-4 px-[7%] py-[10%]">
+                <h1 class="text-3xl xl:text-6xl mb-10 text-gray-50 animate__animated animate__bounceIn">
+                    ข่าวสารจากโรงเรียนเทพศิรินทร์
+                </h1>
+
+                <div class="grid lg:grid-cols-3 gap-6 animate__animated animate__fadeIn">
+                    <div class="relative overflow-hidden shadow-lg rounded-lg bg-center group">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Debsirin.png"
+                             class="w-full p-10 group-hover:scale-105 transform duration-150" alt=""/>
+                        <a href="https://www.debsirin.ac.th/news/view1823.html">
+                            <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-800/30">
+                                <div class="flex justify-start items-end h-full">
+                                    <div class="text-white m-6">
+                                        <h5 class="font-bold text-lg mb-3">เรียกรายงานตัวและมอบตัว ชั้น ม.1
+                                            ห้องเรียนพิเศษ GSMP ปีการศึกษา 2566</h5>
+                                        <p class="text-sm">
+                                            เผยแพร่เมื่อ <em>01 พฤษภาคม 2566</em> โดย ผู้ดูแลระบบ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="relative overflow-hidden shadow-lg rounded-lg group">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Debsirin.png"
+                             class="w-full p-10 group-hover:scale-105 transform duration-150" alt=""/>
+                        <a href="https://www.debsirin.ac.th/news/view1813.html">
+                            <div
+                                    class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-800/30">
+                                <div class="flex justify-start items-end h-full">
+                                    <div class="text-white m-6">
+                                        <h5 class="font-bold text-lg mb-3">ตารางเรียน/กลุ่มการเรียนปรับพื้นฐาน
+                                            ชั้น ม.1 และ ม.4 ปีการศึกษา 2566</h5>
+                                        <p class="text-sm">
+                                            เผยแพร่เมื่อ <em>18 เมษายน 2566</em> โดย ผู้ดูแลระบบ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="relative overflow-hidden shadow-lg rounded-lg group">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Debsirin.png"
+                             class="w-full p-10 group-hover:scale-105 transform duration-150" alt=""/>
+                        <a href="https://www.debsirin.ac.th/news/view1808.html">
+                            <div
+                                    class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-800/30">
+                                <div class="flex justify-start items-end h-full">
+                                    <div class="text-white m-6">
+                                        <h5 class="font-bold text-lg mb-3">ตารางเรียนภาคเรียนที่ 1 ปีการศึกษา
+                                            2566</h5>
+                                        <p class="text-sm">
+                                            เผยแพร่เมื่อ <em>10 เมษายน 2566</em> โดย ผู้ดูแลระบบ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="https://www.debsirin.ac.th/news/"
+                   class="text-gray-50 hover:text-gray-200 flex items-center mt-10 before:contents-[''] before:flex-1 before:mr-10 before:h-[1px] before:bg-white animate__animated animate__slideInLeft">
+                    ข่าวสารทั้งหมด &rarr;
+                </a>
+
+            </div>
+        </section>
+        <section id="contact" class="min-h-screen flex">
+            <div class="w-full min-h-screen flex flex-col gap-1 px-[7%] py-[10%]">
+                <h1 class="text-3xl xl:text-6xl mb-10 flex items-center after:contents-[''] after:flex-1 after:ml-10 after:h-[1px] after:bg-black animate__animated animate__slideInRight">
+                    ติดต่อโรงเรียน
+                </h1>
+
+                <div class="flex flex-col lg:flex-row justify-between gap-5">
+                    <form class="flex flex-col flex-1 gap-4 animate__animated animate__fadeIn animate__delay-1s" style="--animate-delay: .5s;">
+                        <input type="hidden" id="to" name="to" value="admin@debsirin.ac.th"/>
+                        <div class="flex flex-row gap-4">
+                            <div class="flex-1">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="sender">
+                                    ชื่อ - นามสกุล
+                                </label>
+                                <input
+                                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-[#61876E] focus:border-[#61876E] transition duration-150"
+                                        id="sender" type="text" required/>
+                            </div>
+                            <div class="flex-1">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="tel">
+                                    เบอร์โทรศัพท์
+                                </label>
+                                <input
+                                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:shadow-outline focus:ring-[#61876E] focus:border-[#61876E] transition duration-150"
+                                        id="tel" type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="081-456-7890"
+                                        title="โปรดใส่เบอร์โทรศัพท์ของท่านตามรูปแบบ 081-456-7890" required/>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="subject">
+                                หัวข้อ
+                            </label>
+                            <input
+                                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:shadow-outline focus:ring-[#61876E] focus:border-[#61876E] transition duration-150"
+                                    id="subject" type="text" required/>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                                ข้อความ
+                            </label>
+                            <textarea
+                                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:shadow-outline focus:ring-[#61876E] focus:border-[#61876E] transition duration-150"
+                                    id="message" required></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button
+                                    class="bg-[#61876E] hover:bg-[#3C6255] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline focus:shadow-outline focus:ring-[#61876E] focus:border-[#61876E] transition duration-150"
+                                    type="submit" id="submit">
+                                ส่งข้อความ
+                            </button>
+                        </div>
+                    </form>
+                    <div class="flex-1 animate__animated animate__fadeIn animate__delay-1s" style="--animate-delay: 1s;">
+                        <h2 class="block text-gray-700 text-sm font-bold mb-2">
+                            แผนที่
+                        </h2>
+                        <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.7677988485025!2d100.51588324485792!3d13.746542926795836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2993a5d69e539%3A0xdb1c9589472aec71!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4LmA4LiX4Lie4Lio4Li04Lij4Li04LiZ4LiX4Lij4LmM!5e0!3m2!1sth!2sth!4v1682917293955!5m2!1sth!2sth"
+                                class="border-0 w-full h-[50vh]" allowFullScreen="" loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <p class="mt-6">
+                            <span class="font-semibold">ที่ตั้ง</span>: 1466 ถนนกรุงเกษม แขวงวัดเทพศิรินทร์
+                            เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col px-[7%] py-[5%] justify-center items-center gap-4 animate__animated animate__fadeIn">
+            <h1 class="text-gray-700 text-sm font-bold mb-2 w-full flex items-center after:contents-[''] after:flex-1 after:ml-10 after:h-[1px] after:bg-black before:contents-[''] before:flex-1 before:mr-10 before:h-[1px] before:bg-black">
+                ช่องทางการติดตามโรงเรียนเทพศิรินทร์</h1>
+            <div class="flex justify-center items-center gap-5 w-full">
+                <a href="https://www.facebook.com/debsirinsch" class="w-12 hover:scale-105 transition duration-150">
+                    <img src="https://img.icons8.com/color/100/null/facebook-new.png" alt="Debsirin Facbook Page"/>
+                </a>
+                <a href="https://www.debsirin.ac.th/index.php" class="w-12 hover:scale-105 transition duration-150">
+                    <img src="https://img.icons8.com/color/48/null/domain--v1.png" alt="Debsirin Official Website"/>
+                </a>
+            </div>
+        </section>
+    </div>
+    <footer class="flex flex-col gap-4 justify-center items-center bg-[#3C6255] text-gray-50 py-10">
+        <span class="text-center">&copy; สงวนลิขสิทธิ์ตามกฏหมายพุทธศักราช 2566 โรงเรียนเทพศิรินทร์</span>
+        <p class="text-xs md:text-base text-center leading-relaxed">
+            1466 ถนนกรุงเกษม แขวงวัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100<br/>
+            เบอร์โทรศัพท์ <a href="tel:+6622246085">02-2246085</a> , <a href="tel:+6626215801">02-6215801</a> โทรสาร
+            ต่อ 205
+        </p>
+    </footer>
+</div>
+</body>
+</html>

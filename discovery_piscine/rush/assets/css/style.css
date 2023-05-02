@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'LINE Seed';
+    src: url('../font/LINESeedSansTH_W_Th.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'LINE Seed';
+    src: url('../font/LINESeedSansTH_W_Rg.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'LINE Seed';
+    src: url('../font/LINESeedSansTH_W_Bd.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'LINE Seed';
+    src: url('../font/LINESeedSansTH_W_XBd.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'LINE Seed';
+    src: url('../font/LINESeedSansTH_W_He.woff2') format('woff2');
+    font-weight: 800;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background-color: #3C6255;
+}
+
+.dot.ntun.active {
+    background-color: #5DA7DB;
+}
+
+.animate__animated {
+    animation-play-state: running !important;
+}
+
+.animate__animated--paused {
+    animation-play-state: paused !important;
+}
