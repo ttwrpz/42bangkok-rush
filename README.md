@@ -25,7 +25,7 @@ This a project developed for *42Bangkok Rush Project for Discovery Piscine for H
 
 ## Demo
 
-Please visit at [https://ttwrpz.github.io/42bangkok-rush/](https://ttwrpz.github.io/42bangkok-rush/) for the demo.
+Please visit at [https://ttwrpz.github.io/42bangkok-rush/](https://ttwrpz.github.io/42bangkok-rush/discovery_piscine/rush/index.html) for the demo.
 
 
 ## Screenshots
